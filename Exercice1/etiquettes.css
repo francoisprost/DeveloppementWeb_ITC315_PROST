@@ -1,0 +1,19 @@
+h1 {					/* Style des éléments dans la balise h1 */
+	font-size: 18pt;}   /* Taille de la police */
+
+label /* Style des éléments de la balise label */
+{
+	width: 100px; /* Largeur de la boite à 100px */
+	text-align: right; /* Alignement du texte à droite dans la boite */
+	display: inline-block; /* Mode d'affichage à la fois inline et block */
+	vertical-align: baseline /* Alignement vertical correspondant au parent */
+}
+
+@media only screen and (max-width: 480px) {
+    label{
+        width: 100px;
+        text-align: initial;
+        display: block;
+    }
+}
+

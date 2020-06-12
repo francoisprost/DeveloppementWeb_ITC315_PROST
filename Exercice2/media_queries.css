@@ -1,0 +1,78 @@
+@media screen and (min-width: 801px) {
+	#titrePage {
+		font-size:36pt;
+		font-family:"Times New Roman", Times, serif;
+		background-color:#9999FF
+	}
+	
+	#container {
+		font-size: 16pt;
+		position: relative;
+		width: 100%;
+	}
+	
+	#colonneG {
+		width: 200px;
+		height: 100%;
+		float:left;
+	}
+	
+	#contenuPage {
+		margin-left: 210px;
+	}
+	
+	#footer {
+		border: 2px gray solid;
+		padding: 5pt;
+		margin-top: 5pt;
+	}	
+}
+
+@media screen and (max-width: 800px) {
+    #titrePage {
+		font-size:36pt; /* Taille de la police */
+		font-family:"Times New Roman", Times, serif; /* Choix de la police */
+        background-color: olive; /*Définition des couleurs du fond et de la police */
+        color: honeydew; 
+        text-align: right; /* Texte aligné à droite de la boite */
+	}	
+	#container {
+		font-size: 16pt;
+		position: relative;
+	}
+	#colonneG {
+		width: 200px;
+        height: 100%;
+	}	
+	#contenuPage {
+		margin-left: 0px; /* On enlève la marge car l'écran est petit */
+	}
+	
+	#footer {
+		border: 2px gray solid; /* Cadre autour du footer */
+		padding: 5pt;
+		margin-top: 5pt;
+    }
+    ul{ /* Permet de définir le style de la liste de liens */
+        list-style: none; /* On enlève les puces devant chaque lien */
+        padding-inline-start: 0px; /* Pour ne pas décaler les liens */
+        white-space: nowrap;  /* Affichage des liens les uns à la suite des autres */
+    }
+    li {
+        display: inline-flex; /* Ne pas revenir à la ligne à chaque lien */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
